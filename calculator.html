@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #put{
+            background-color:white;
+            box-shadow:12px 12px 20px gray;
+            height: 100%;
+            width: 25%;
+            align-items: center;
+
+        }
+        #display{
+            background-color: rgb(216, 240, 240);
+            /* background-color: black; */
+            
+
+        }
+        #first{
+            background-color: rgb(216, 240, 240);
+            color: black;
+         font-size: x-large;
+            
+
+            
+        }
+        #first td{
+            border-radius: 50%;
+            font-size: x-large;
+            color: whitesmoke;
+            background-color: black;
+            box-shadow:10px 10px 15px gray;
+        }
+        #fire{
+            border-radius: 50%;
+            background-color: yellow;
+        }
+        #form{
+            border-radius: 50%;
+            background-color:green;
+        }
+    
+     
+       
+    </style>
+</head>
+<body>
+    <table  border="2" align="center" cellspacing="15px" cellpadding="20px" id="put">
+        <tr  id="pick">
+            <td  colspan="4" id="display" >
+
+            </td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('2')">2</td>
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('4')">4</td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('5')">5</td>
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('9')">9</td>
+            <td onclick="cal('0')">0</td>
+            <td onclick="cal('.')">.</td>
+            <td onclick="cal('%')" id="gun">%</td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('*')"id="fire">*</td>
+            <td onclick="cal('-')"id="fire">-</td>
+            <td onclick="cal('/')"id="fire">/</td>
+            <td onclick="cal('+')"id="fire">+</td>
+        </tr>
+        <tr id="first">
+            <td onclick="del('del')"id="form">del</td>
+            <td onclick="ac('ac')"id="form">ac</td>
+            <td onclick="res('=')"id="form">=</td>
+            <td onclick="sq('sq')"id="form">sq</td>
+        </tr>
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>
