@@ -1,66 +1,50 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pratice.css">
     <title>Document</title>
+    <link rel="stylesheet" href="pratice.css">
 </head>
 <body>
-    <!-- <h1>calculator</h1> -->
-    <div id="calculator">
-        <div id="cal">
-      <div >
-        <input type="text" id="display" style="width: 86%;
-    border-radius: 10px; background-color: black; outline: none;">
-     </div>
+    <table  border="2" align="center" cellspacing="15px" cellpadding="20px" id="put">
+        <tr  id="pick">
+            <td  colspan="4" id="display" >
 
-    <div>
-        <input type="button" value="Ac"  id="firs" onclick="clr()">
-        <input type="button" value="%"   id="third" onclick="calcul('%')">
-        <input type="button" value="DE"  id="third" onclick="DE()">
-        <input type="button" value="/"   id="third" onclick="calcul('/')">
-    </div>
-    <div>
-        <input type="button" value="SIN" id="sec" onclick="calcul('SIN')">
-        <input type="button" value="COS" id="sec" onclick="calcul('COS')">
-        <input type="button" value="TAN" id="sec" onclick="calcul('TAN')">
-        <input type="button" value="√" id="third" onclick="squ('√')">    
-
-    </div>
-    
-
-    <div>
-        <input type="button" value="7" id="sec" onclick="calcul(7)">
-        <input type="button" value="8" id="sec" onclick="calcul(8)">
-        <input type="button" value="9" id="sec" onclick="calcul(9)">
-        <input type="button" value="" id="third" onclick="calcul('')">    
-    </div>
-
-    <div>
-        <input type="button" value="4" id="sec" onclick="calcul(4)">
-        <input type="button" value="5" id="sec" onclick="calcul(5)">
-        <input type="button" value="6" id="sec" onclick="calcul(6)">
-        <input type="button" value="-" id="third" onclick="calcul('-')">
-    </div>
-
-    <div>
-        <input type="button" value="1" id="sec" onclick="calcul(1)">
-        <input type="button" value="2" id="sec" onclick="calcul(2)">
-        <input type="button" value="3" id="sec" onclick="calcul(3)">
-        <input type="button" value="+" id="third" onclick="calcul('+')">
-    </div>
-
-    <div>
-        <input type="button" value="00" id="sec" onclick="calcul('00')">
-        <input type="button" value="0" id="sec" onclick="calcul(0)">
-        <input type="button" value="." id="sec" onclick="calcul('.')">
-        <input type="button" value="=" id="third" onclick="solve('=')">
-    </div>
-</div>
-    </div>
-
-   <script src="practice.js"></script>
+            </td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('2')">2</td>
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('4')">4</td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('5')">5</td>
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('9')">9</td>
+            <td onclick="cal('0')">0</td>
+            <td onclick="cal('.')">.</td>
+            <td onclick="cal('%')" id="gun">%</td>
+        </tr>
+        <tr id="first">
+            <td onclick="cal('*')"id="fire">*</td>
+            <td onclick="cal('-')"id="fire">-</td>
+            <td onclick="cal('/')"id="fire">/</td>
+            <td onclick="cal('+')"id="fire">+</td>
+        </tr>
+        <tr id="first">
+            <td onclick="del('del')"id="form">del</td>
+            <td onclick="ac('ac')"id="form">ac</td>
+            <td onclick="res('=')"id="form">=</td>
+            <td onclick="sq('sq')"id="form">sq</td>
+        </tr>
+    </table>
+    <script src="practice.js"></script>
 </body>
 </html>
