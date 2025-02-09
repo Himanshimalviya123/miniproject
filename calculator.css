@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#put{
+    background-color:gray;
+    box-shadow:12px 12px 20px gray;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+
+}
+#display{
+    background-color: rgb(216, 240, 240);
+    /* background-color: black; */
+    
+
+}
+#first{
+    background-color: rgb(216, 240, 240);
+    color: black;
+ font-size: x-large;
+    
+
+    
+}
+#first td{
+    border-radius: 50%;
+    font-size: x-large;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow:10px 10px 12px gainsboro ;
+}
+#fire{
+    border-radius: 50%;
+    background-color: yellow;
+}
+#form{
+    border-radius: 50%;
+    background-color:rgb(85, 171, 85);
+}
+
+
