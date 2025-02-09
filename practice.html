@@ -6,44 +6,51 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="2" cellspacing="20px" cellpadding="10px">
-        <tr>
-            <td colspan="4" >
+    <table  border="2" align="center" cellspacing="15px" cellpadding="20px" id="put">
+        <tr  id="pick">
+            <td  colspan="4" id="display" >
 
             </td>
         </tr>
-        <tr>
-            <td>AC</td>
-            <td>del</td>
-            <td>+</td>
-            <td>a/</td>
+        <tr id="first">
+            <td onclick="cal('AC')">AC</td>
+            <td onclick="cal('%')">%</td>
+            <td onclick="cal('DE')">DE</td>
+            <td onclick="cal('/')">/</td>
         </tr>
-        <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>*</td>
+        <tr id="first">
+            <td onclick="cal('SIN')">SIN</td>
+            <td onclick="cal('COS')">COS</td>
+            <td onclick="cal('TAN')">TAN</td>
+            <td onclick="cal('√')">√ </td>
         </tr>
-        <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>-</td>
+        
+        <tr id="first">
+           
+            <td onclick="cal('7')">7</td>
+            <td onclick="cal('8')">8</td>
+            <td onclick="cal('9')">9</td>
+            <td onclick="cal('*')">*</td>
         </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>/</td>
+        <tr id="first">
+            <td onclick="cal('4')">4</td>
+            <td onclick="cal('5')">5</td>
+            <td onclick="cal('6')">6</td>
+            <td onclick="cal('-')">-</td>
         </tr>
-        <tr>
-            <td>%</td>
-            <td>0</td>
-            <td>.</td>
-            <td>=</td>
+        <tr id="first">
+            <td onclick="cal('1')">1</td>
+            <td onclick="cal('2')">2</td>
+            <td onclick="cal('3')">3</td>
+            <td onclick="cal('+')">+</td>
         </tr>
-
+        <tr id="first">
+            <td onclick="del('00')">00</td>
+            <td onclick="ac('0')">0</td>
+            <td onclick="res('.')">.</td>
+            <td onclick="sq('sq')">=</td>
+        </tr>
     </table>
-    <script src="practice.js"></script>
+    <script src="calculator.js"></script>
 </body>
 </html>
