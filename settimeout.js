@@ -62,16 +62,36 @@
 // },2000)
 
 //  let clear;
-let count=0;
-let abc=()=>{
-    let show=document.querySelector("#number").value
-  setInterval(()=>{
-    show.innerHTML=count;                     //Page prr
-    count++
-},2000)
-if(show>=number)
-    alert(number)
-count++
+// let count=0;
+// let abc=()=>{
+//     let show=document.querySelector("#number").value
+//   setInterval(()=>{
+//     show.innerHTML=count;                     //Page prr
+//     count++
+// },2000)
+// if(show>=number)
+//     alert(number)
+// count++
 
 
-}
+// }
+// let stp;
+// let count=0;
+// let stopp=()=>{
+//     let efg=document.querySelector=("#number")
+//     let abc=document.querySelector=("#cat")
+//     if(abc>=1)
+//       count=abc
+//     let stp=setInterval=(()=>{
+//         efg.innerHTML=Count
+//         count--;
+//         efg.innerHTML=Count
+//         if(count==1)
+//           clearInterval(stp);
+//     },2000)
+// }
+// let count=0;
+// setInterval(()=>{
+//     console.log(count);                     //console prrr
+//     count++
+// },2000)
