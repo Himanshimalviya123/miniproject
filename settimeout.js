@@ -17,21 +17,21 @@
 // // let 
 
 // ========================( setInterval )===============================
-// let count=0;
-// setInterval(()=>{
-//     console.log(count);
-//     count++;
-//  },2000)
-// let abc=()=>{
-// let count=0;
-// let abc=()=>{
-//     let pvc=document.querySelector=("#cat")
-// setInterval(()=>{
-//     // let pvc=document.querySelector=("#cat")
-//     pvc.innerHTML=count;
-//     count++;
-//  },2000)
-// }
+let count=0;
+setInterval(()=>{
+    console.log(count);
+    count++;
+ },2000)
+let abc=()=>{
+let count=0;
+let abc=()=>{
+    let pvc=document.querySelector=("#cat")
+setInterval(()=>{
+    // let pvc=document.querySelector=("#cat")
+    pvc.innerHTML=count;
+    count++;
+ },2000)
+}
 // ========================= (stop )========
 // let inter;
 // let count=0;

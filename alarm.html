@@ -1,28 +1,27 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="alarm.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alarm.css">
 </head>
 <body>
-  <div id="clock">
-    <h1>ALARM CLOCK</h1>
-   <div><img src="download (1).jpg" alt=""></div>
-    <div id="time">
-      
-        <input type="time"id="inptime"><br>
-        <button onclick="set()">set time</button>
-      
+<div id="clock">
+    <h1 id="show"></h1>
+    <div><img src="download (1).jpg" alt="clock" id="alarm-status"></div>
+    <h3 id="h1"></h3>
+    <div id="alarm1">
+    <input type="time" id="currenttime">
+    
+    <button onclick="sett()">set alarm</button>
     </div>
-    <div class="currenttime">
-      <select name="hours" id="hours" required></select>
-      <select name="minutes" id="minutes" required></select>
-      <select name="seconds" id="seconds" required></select>
-      
+    <audio src=""></audio>
+    <div class="alarm-status" id="alarm-status"></div>
+
     </div>
-  </div>
-  <script src="alarm.js"></script>
+    
+    <script src="alarm.js"></script>
 </body>
 </html>
